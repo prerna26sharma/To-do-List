@@ -1,0 +1,91 @@
+/* Set body styles */
+body {
+  background-color: #d0f0c0; /* Mint green */
+  font-family: 'Poppins', sans-serif;
+  margin: 0; /* Remove default margin */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+}
+
+/* Task container */
+.task-container {
+  width: 400px; /* Adjust width as needed */
+  background-color: #ffffff; /* White */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Task input container */
+.task-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Task input */
+.task-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 10px; /* Add space between input and button */
+}
+
+/* Add button */
+.add-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff; /* Blue */
+  color: #fff; /* White */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Task list */
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Task item */
+.task-item {
+  background-color: #f9f9f9; /* Light gray */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+/* Task name */
+.task-name {
+  flex: 1;
+  margin-left: 10px;
+}
+
+/* Delete button */
+.delete-button {
+  padding: 8px;
+  font-size: 0.8rem;
+  background-color: #dc3545; /* Red */
+  color: #fff; /* White */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c82333; 
+}
