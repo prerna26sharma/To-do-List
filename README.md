@@ -4,32 +4,31 @@ This is a basic To-Do application built using ReactJS and Redux. It allows users
 Setup
 Clone the repository:
 
-bash
-Copy code
 git clone <repository-url>
 Navigate to the project directory:
 
-bash
-Copy code
+
+
 cd todo-app
 Install dependencies:
 
-bash
-Copy code
 npm install
+
+
 Running the Application
 To run the application locally, use the following command:
 
-bash
-Copy code
 npm start
 This will start the development server and open the application in your default web browser.
+
 
 How to Use
 Add a Task:
 
 Type your task in the input field.
 Press the "Add Task" button or hit Enter to add the task to the list.
+
+
 View Tasks:
 
 All added tasks will be displayed in a list format.
